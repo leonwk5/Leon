@@ -1,0 +1,399 @@
+/*HEADER und NAVIGATION*/
+
+header{
+    width: 100%;
+    height: 260px;
+    display: grid;
+    background-color:#838383;
+    
+  }
+
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  grid-column: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -10%;
+}
+
+.buttonHome{
+  display: inline;
+  text-align: left;
+  margin-top: -14%;
+  margin-left: 205%;
+}
+
+.Draußen{
+  display: inline;
+  text-align: left;
+  margin-left: -2.65%;
+}
+
+hr{
+height: 2px;
+background-color:black;
+border: none;
+
+}
+
+h2{
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+margin-right: 15%;
+}
+
+h3{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17.25%;
+  font-size: 130%;
+}
+
+.Seit{
+  display: inline;
+  margin-left: -15%;
+}
+
+.FaFe{
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 16.05%;
+}
+
+.Grundschule{
+  margin-left: 2.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  display: inline;
+}
+
+.Technik{
+  display: inline;
+  text-align: left;
+  margin-left: 15.5999%;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.CoPo{
+  display: inline;
+  text-align: left;
+  margin-left: 14.59%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.Name{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.Vorname{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.Geburtsdatum{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.Heimatort{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.Adresse{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.Telefon{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.E-Mail{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+.ITKent{
+  display: inline;
+  margin-left: 14%;
+}
+
+.Test{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-right: 17%;
+  font-weight: 700;
+}
+
+
+.HTCS{
+  display: inline;
+  margin-left: 11.2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.Realschule{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-left: 2%;
+  font-weight: 700;
+}
+
+.engde{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  font-weight: 700;
+  margin-left: 13.35%;
+}
+
+.Sprachen{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-left: -3.4%;
+  font-weight: 700;
+  font-size: 20px;
+}
+.Test2{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  margin-left: -17.3%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Info{
+text-align: center;
+font-weight: 750;
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+font-size: 24px;
+
+}
+
+#logo{
+  text-align: left;
+  grid-column: 1;
+}
+  
+  .inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+  }
+  
+  .logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+  }
+  
+  .logo_container h1 span{
+    font-weight: 800;
+  }
+  
+  .navigation{
+    float: right;
+    height: 100%;
+  }
+  
+  .navigation li{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+  
+  }
+  
+  .navigationa:last-child{
+    padding-right: 0;
+  }
+  
+  
+  .navigation li a{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-sizing: 0 0 5px white;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+  } 
+
+  .navigation a:hover{
+    color:  #b71584;
+    transition: ease-in-out 0.3s;
+  }
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color:#808080;
+  }
+  
+  .inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;;
+  }
+  
+  
+  .inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+  }
+  
+  .inner_footer .logo_container img{
+    width: 65px;
+    height: auto;
+  }
+  
+  .inner_footer .footer_third{
+    width: calc(21.6666666667% -20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+  }
+  
+  .inner_footer .footer_third last-child{
+    margin-right: 0;
+  }
+  
+  .inner_footer .footer_third h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 70px;
+    padding-right: 70px;
+  }
+  
+  .inner_footer .footer_third a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+  }
+  
+  
+  
+  .inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-right: 20px;
+  
+  }
+
+  .footer_third li a:hover{
+    color: #b71584;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .footer_third a:hover{
+    color: #b71584;
+    transition:ease-in-out 0.3s;
+  }
+
+
+  .body_cv{
+      display: flex;
+  }
+
+  .picture_cv{
+      flex: 1;
+      padding: 0 25px;
+      color: red;
+      order: 1;
+  }
+
+  .main_cv{
+      flex: 3;
+      color: purple;
+      order: 2;
+  }
+
+  .empty_cv{
+      flex:0.5;
+      color: green;
+      order: 3;
+  }

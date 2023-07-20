@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #3f4a57;
+    display: inline;
+    margin-left: 93%;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 17px;
+    border-radius: 1rem;
+}
+
+
+
+.Username{
+    text-align: center;
+    margin-top: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Password{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.E-Mail{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Submit{
+    margin-left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

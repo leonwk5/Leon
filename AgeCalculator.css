@@ -1,0 +1,80 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1;
+background-color: rgb(63, 74, 87);
+}
+
+.container{
+width: 520px;
+margin: auto;
+background-color: rgb(255, 255, 255);
+}
+
+.block{
+width: 520px;
+margin: auto;
+background-color: rgb(255, 255, 255);
+}
+
+.base h4{
+font-size: 30px;
+padding: 4%;
+margin-left: 20px;
+background: white;
+text-align: center;
+}
+
+.title{
+font-size: 20px;
+padding: 2%;
+}
+
+* {
+box-sizing: border-box;
+border-radius: 20px;
+word-spacing: 2.7px;
+border: none;
+outline: none;
+text-align: center;
+}
+
+input[type=text] {
+width: 140px;
+margin: auto;
+border: 2px solid rgb(63, 74, 87);
+text-align: center;
+}
+
+input[type=text]:focus {
+background-color: white;
+}
+
+input[type=button] {
+width: 30%;
+margin-top: 6%;
+background-color: rgb(255, 255, 255);
+padding: 14px;
+text-align: center;
+
+}
+
+input[type=button]:hover {
+background-color: rgb(196, 196, 196);
+}
+
+#age{
+margin: 20px;
+padding: 10px;
+font-size: 23px;
+line-height: 1.5;
+margin-top: -5%;
+}
+
+.Home{
+    display: inline;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 200px;
+   
+}
